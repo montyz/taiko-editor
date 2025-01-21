@@ -67,7 +67,11 @@
 
         row_index=0;
         document.addEventListener('keydown', (event) => {
-            keysEntered.push(event.key);
+            if (event.key==="Backspace") {
+                keysEntered.pop();
+            } else {
+                keysEntered.push(event.key);
+            }
             document.getElementById('debug').innerText = event.key;
             document.getElementById('textArea').innerHTML = '';
             const table = document.getElementById('table');
