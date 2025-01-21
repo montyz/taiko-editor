@@ -16,11 +16,18 @@
             border-collapse: collapse;
             margin-top: 20px;
         }
+        tr:nth-child(3n) td {
+            border: none;
+        }
         th, td {
             border: 1px solid #ccc;
             padding: 10px;
             text-align: left;
             width: 3ch;
+            min-width: 3ch;
+        }
+        td[colspan="2"] {
+            min-width: 6ch;
         }
     </style>
 </head>
@@ -32,6 +39,7 @@
     <table id="table">
         <tr></tr>
         <tr></tr>
+        <tr><td>&nbsp;</td></tr>
     </table>
 
     <script>
@@ -44,14 +52,17 @@
             'l': 'tsu',
             's': 'ku ',
             ';': 'ka',
+            ':': 'KA',
             'a': 'ka ',
             ' ': '&nbsp;',
             'Enter': '<br>',
-            ' ': 'Su ',
+            'u': 'Su ',
+            'U': 'Su ',
             'o': 'Sore ',
         };
         leftKeys = ['s', 'f', 'd', 'a', 'g', 'r'];
-        tallKeys = [' ', 'o']
+        tallKeys = ['u', 'U', 'o', ':']
+        quarterNoteKeys = ['j', 'f', 'U'];
         row_index=0;
         document.addEventListener('keydown', (event) => {
             const textArea = document.getElementById('textArea');
@@ -61,18 +72,23 @@
                 if (event.key === 'Enter') {
                     table.insertRow();
                     table.insertRow();
+                    table.insertRow();
                     row_index++;
-                    table.rows[row_index*2].deleteCell(0);
-                    table.rows[row_index*2+1].deleteCell(0);
+                    // table.rows[row_index*3].deleteCell(0);
+                    // table.rows[row_index*3+1].deleteCell(0);
+                    table.rows[row_index*3+2].innerHTML += '<td>&nbsp;</td>';
                 } else if (tallKeys.includes(event.key)) {
-                    table.rows[row_index*2].innerHTML += '<td rowspan="2">' + keyToWordMap[event.key] + '</td>';
-                } else
-                if (leftKeys.includes(event.key)) {
-                    table.rows[row_index*2].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
-                    table.rows[row_index*2+1].innerHTML += '<td></td>';
+                    table.rows[row_index*3].innerHTML += '<td rowspan="2">' + keyToWordMap[event.key] + '</td>';
+                } else if (leftKeys.includes(event.key)) {
+                    table.rows[row_index*3].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
+                    table.rows[row_index*3+1].innerHTML += '<td></td>';
                 } else {
-                    table.rows[row_index*2].innerHTML += '<td></td>';
-                    table.rows[row_index*2+1].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
+                    table.rows[row_index*3].innerHTML += '<td></td>';
+                    table.rows[row_index*3+1].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
+                }
+                if (quarterNoteKeys.includes(event.key)) {
+                    table.rows[row_index*3].lastElementChild.setAttribute('colspan', '2');
+                    table.rows[row_index*3+1].lastElementChild.setAttribute('colspan', '2');
                 }
             }
         });
