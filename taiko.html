@@ -26,6 +26,7 @@
 </head>
 <body>
     <h1>Press any key to add a word</h1>
+    <div id="debug"></div>
     <div id="textArea"></div>
 
     <table id="table">
@@ -39,17 +40,22 @@
             'f': 'Don ',
             'k': 'Do',
             'd': 'ko ',
+            'r': 'ro ',
             'l': 'tsu',
             's': 'ku ',
             ';': 'ka',
             'a': 'ka ',
             ' ': '&nbsp;',
-            'Enter': '<br>'
+            'Enter': '<br>',
+            ' ': 'Su ',
+            'o': 'Sore ',
         };
-        leftKeys = ['s', 'f', 'd', 'a', 'g'];
+        leftKeys = ['s', 'f', 'd', 'a', 'g', 'r'];
+        tallKeys = [' ', 'o']
         row_index=0;
         document.addEventListener('keydown', (event) => {
             const textArea = document.getElementById('textArea');
+            document.getElementById('debug').innerText = event.key;
             if (keyToWordMap[event.key]) {
                 textArea.innerHTML += keyToWordMap[event.key];
                 if (event.key === 'Enter') {
@@ -58,7 +64,10 @@
                     row_index++;
                     table.rows[row_index*2].deleteCell(0);
                     table.rows[row_index*2+1].deleteCell(0);
-                } else if (leftKeys.includes(event.key)) {
+                } else if (tallKeys.includes(event.key)) {
+                    table.rows[row_index*2].innerHTML += '<td rowspan="2">' + keyToWordMap[event.key] + '</td>';
+                } else
+                if (leftKeys.includes(event.key)) {
                     table.rows[row_index*2].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
                     table.rows[row_index*2+1].innerHTML += '<td></td>';
                 } else {
