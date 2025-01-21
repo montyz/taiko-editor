@@ -12,11 +12,26 @@
             padding: 10px;
             font-size: 16px;
         }
+        table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+            width: 3ch;
+        }
     </style>
 </head>
 <body>
     <h1>Press any key to add a word</h1>
     <div id="textArea"></div>
+
+    <table id="table">
+        <tr></tr>
+        <tr></tr>
+    </table>
 
     <script>
         const keyToWordMap = {
@@ -28,15 +43,29 @@
             's': 'ku ',
             ';': 'ka',
             'a': 'ka ',
-            ' ': '&nbsp;'
-
+            ' ': '&nbsp;',
+            'Enter': '<br>'
         };
-
+        leftKeys = ['s', 'f', 'd', 'a', 'g'];
+        row_index=0;
         document.addEventListener('keydown', (event) => {
             const textArea = document.getElementById('textArea');
             if (keyToWordMap[event.key]) {
                 textArea.innerHTML += keyToWordMap[event.key];
-            } 
+                if (event.key === 'Enter') {
+                    table.insertRow();
+                    table.insertRow();
+                    row_index++;
+                    table.rows[row_index*2].deleteCell(0);
+                    table.rows[row_index*2+1].deleteCell(0);
+                } else if (leftKeys.includes(event.key)) {
+                    table.rows[row_index*2].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
+                    table.rows[row_index*2+1].innerHTML += '<td></td>';
+                } else {
+                    table.rows[row_index*2].innerHTML += '<td></td>';
+                    table.rows[row_index*2+1].innerHTML += '<td>' + keyToWordMap[event.key] + '</td>';
+                }
+            }
         });
     </script>
 </body>
