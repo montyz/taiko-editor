@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keystroke to Word</title>
+    <style>
+        #textArea {
+            width: 100%;
+            height: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Press any key to add a word</h1>
+    <div id="textArea"></div>
+
+    <script>
+        const keyToWordMap = {
+            'j': 'Don ',
+            'f': 'Don ',
+            'k': 'Do',
+            'd': 'ko ',
+            'l': 'tsu',
+            's': 'ku ',
+            ';': 'ka',
+            'a': 'ka ',
+            ' ': '&nbsp;'
+
+        };
+
+        document.addEventListener('keydown', (event) => {
+            const textArea = document.getElementById('textArea');
+            if (keyToWordMap[event.key]) {
+                textArea.innerHTML += keyToWordMap[event.key];
+            } 
+        });
+    </script>
+</body>
+</html>
