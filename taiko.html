@@ -61,22 +61,23 @@
             'U': 'Su ',
             'o': 'Sore ',
             'i': 'Kri ',
+            'e': 'do '
         };
-        leftKeys = ['s', 'f', 'd', 'a', 'g', 'r', 'q'];
+        leftKeys = ['s', 'f', 'd', 'a', 'g', 'r', 'q', 'e'];
         tallKeys = ['u', 'U', 'o', ':']
         quarterNoteKeys = ['j', 'f', 'U', 'o'];
         let keysEntered = [];
 
         row_index=0;
         document.addEventListener('keydown', (event) => {
+            const table = document.getElementById('table');
             if (event.key==="Backspace") {
                 keysEntered.pop();
-            } else {
+            } else if (keyToWordMap[event.key]) {
                 keysEntered.push(event.key);
             }
-            document.getElementById('debug').innerText = event.key;
+            document.getElementById('debug').innerText = keysEntered + '<br/>' + table.innerHTML;
             document.getElementById('textArea').innerHTML = '';
-            const table = document.getElementById('table');
             while (table.rows.length >1) {
                 table.deleteRow(0);
             }
@@ -100,6 +101,7 @@
                         table.rows[row_index*3+2].innerHTML += '<td>&nbsp;</td>';
                     } else if (tallKeys.includes(key)) {
                         table.rows[row_index*3].innerHTML += '<td rowspan="2">' + keyToWordMap[key] + '</td>';
+                        // table.rows[row_index*3+1].innerHTML += '<td></td>';
                     } else if (leftKeys.includes(key)) {
                         table.rows[row_index*3].innerHTML += '<td>' + keyToWordMap[key] + '</td>';
                         table.rows[row_index*3+1].innerHTML += '<td></td>';
@@ -108,8 +110,8 @@
                         table.rows[row_index*3+1].innerHTML += '<td>' + keyToWordMap[key] + '</td>';
                     }
                     if (quarterNoteKeys.includes(key)) {
-                        table.rows[row_index*3].lastElementChild.setAttribute('colspan', '2');
-                        table.rows[row_index*3+1].lastElementChild.setAttribute('colspan', '2');
+                        if (table.rows[row_index*3].lastElementChild) table.rows[row_index*3].lastElementChild.setAttribute('colspan', '2');
+                        if (table.rows[row_index*3+1].lastElementChild) table.rows[row_index*3+1].lastElementChild.setAttribute('colspan', '2');
                     }
                 }
             }
