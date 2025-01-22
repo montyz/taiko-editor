@@ -33,7 +33,6 @@
 </head>
 <body>
     <h1>Press any key to add a word</h1>
-    <div id="debug"></div>
     <div id="textArea"></div>
 
     <table id="table">
@@ -41,6 +40,8 @@
         <tr></tr>
         <tr><td>&nbsp;</td></tr>
     </table>
+    <div id="debug"></div>
+    <div id="debugTable"></div>
 
     <script>
         const keyToWordMap = {
@@ -76,7 +77,8 @@
             } else if (keyToWordMap[event.key]) {
                 keysEntered.push(event.key);
             }
-            document.getElementById('debug').innerText = keysEntered + '<br/>' + table.innerHTML;
+            document.getElementById('debug').innerText = JSON.stringify(keysEntered, null, null);
+            document.getElementById('debugTable').innerText = table.innerHTML;            
             document.getElementById('textArea').innerHTML = '';
             while (table.rows.length >1) {
                 table.deleteRow(0);
@@ -111,7 +113,9 @@
                     }
                     if (quarterNoteKeys.includes(key)) {
                         if (table.rows[row_index*3].lastElementChild) table.rows[row_index*3].lastElementChild.setAttribute('colspan', '2');
-                        if (table.rows[row_index*3+1].lastElementChild) table.rows[row_index*3+1].lastElementChild.setAttribute('colspan', '2');
+                        if (!tallKeys.includes(key)) {
+                            if (table.rows[row_index*3+1].lastElementChild) table.rows[row_index*3+1].lastElementChild.setAttribute('colspan', '2');
+                        }
                     }
                 }
             }
