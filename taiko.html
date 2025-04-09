@@ -19,6 +19,12 @@
         tr:nth-child(3n) td {
             border: none;
         }
+        tr:nth-child(3n+2) td {
+            font-size: 0.7em;
+        }
+        td[rowspan="2"] {
+            vertical-align: top;
+        }
         th, td {
             border: 1px dotted #eee;
             padding: 0px;
@@ -35,14 +41,12 @@
     <h1>Press any key to add a word</h1>
     <div style="display: flex; gap: 20px;">
         <textarea id="input" cols="40" rows="20"></textarea>
-        <div>
             <div id="textArea"></div>
             <table id="table">
                 <tr></tr>
                 <tr></tr>
                 <tr><td>&nbsp;</td></tr>
             </table>
-        </div>
     </div>
     <!-- <div id="textArea"></div>
 
