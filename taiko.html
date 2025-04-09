@@ -33,15 +33,27 @@
 </head>
 <body>
     <h1>Press any key to add a word</h1>
-    <div id="textArea"></div>
+    <div style="display: flex; gap: 20px;">
+        <textarea id="input" cols="40" rows="20"></textarea>
+        <div>
+            <div id="textArea"></div>
+            <table id="table">
+                <tr></tr>
+                <tr></tr>
+                <tr><td>&nbsp;</td></tr>
+            </table>
+        </div>
+    </div>
+    <!-- <div id="textArea"></div>
 
     <table id="table">
         <tr></tr>
         <tr></tr>
         <tr><td>&nbsp;</td></tr>
     </table>
-    <div id="debug"></div>
-    <div id="debugTable"></div>
+    <textarea id="input" cols="40" rows="20"></textarea> -->
+    <div id="debug" style="display: none;"></div>
+    <div id="debugTable" style="display: none;"></div>
 
     <script>
 
@@ -70,6 +82,7 @@
                     '4': '4x',
                     '>': '>',
                     '<': '<',
+                    '\n': '<br>',
                 };
                 leftKeys = ['s', 'S', 'f', 'd', 'a', 'g', 'r', 'q', 'e'];
                 tallKeys = ['u', 'U', 'o', ':', '2', '4'];
@@ -78,25 +91,11 @@
 
                 row_index = 0;
 
-                document.addEventListener('keydown', (event) => {
-                    const table = document.getElementById('table');
-                    if (event.key === "Backspace") {
-                        keysEntered.pop();
-                    } else if (keyToWordMap[event.key]) {
-                        keysEntered.push(event.key);
-                    }
-                    updateDisplay();
-                });
-
-                document.getElementById('textArea').addEventListener('paste', (event) => {
-                    const pastedText = (event.clipboardData || window.clipboardData).getData('text');
-                    keysEntered.push(...pastedText.split(''));
-                    updateDisplay();
-                });
+                document.getElementById('input').addEventListener('input', updateDisplay);
 
                 function updateDisplay() {
+                    const inputText = document.getElementById('input').value;
                     const table = document.getElementById('table');
-                    document.getElementById('debug').innerText = keysEntered.join('');
                     document.getElementById('debugTable').innerText = table.innerHTML;
                     document.getElementById('textArea').innerHTML = '';
                     while (table.rows.length > 1) {
@@ -107,8 +106,8 @@
                     table.insertRow();
                     row_index = 0;
                     table.rows[row_index * 3 + 2].innerHTML += '<td>&nbsp;</td>';
-
-                    keysEntered.forEach(key => handleKeyPress(key));
+                    document.getElementById('debug').innerText =inputText;
+                    inputText.split('').forEach(key => handleKeyPress(key));
                 }
 
                 function handleKeyPress(key) {
@@ -116,7 +115,8 @@
                     if (keyToWordMap[key]) {
                         textArea.innerHTML += keyToWordMap[key];
                         const table = document.getElementById('table');
-                        if (key === 'Enter') {
+
+                        if (key === '\n') {
                             table.insertRow();
                             table.insertRow();
                             table.insertRow();
