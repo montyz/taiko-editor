@@ -21,21 +21,24 @@ Need 2x for multiple lines
 Need Don 2 3 4
 
 Shukusei
-kdkdkdkdkdkdkdkd
-kdkdkdkdkdkdkdls
-ukukjfukkdkdj
+kdkdkdkdkdkdkdkd|
+kdkdkdkdkdkdkdls|2
+ukukjfukkdkdj4
 
-ukukjfukkdkdj
-ukfukfukudukf
+ukukjfukkdkdj|
+ukfukfukudukf|2
+jfkdukkdkdkdj|
+ukkdjfkdkdkdj|2
+
+jfkdukjfkduk|
+jfkdukkdkdkdj|2
+
 jfkdukkdkdkdj
 ukkdjfkdkdkdj
 
-jfkdukjfkduk
-jfkdukkdkdkdj
-
-jfkdukkdkdkdj
-ukkdjfkdkdkdj
-
-jUUUfUUU
-jUfUUjUf
-skdls;akd;akd;akd;akd
+jUUUfUUU|
+jUfUUjUf|2
+;akd;akd;akd;akd|
+jUfUUjUf|2
+krlskrlskrlsjf
+LejLejUjfU

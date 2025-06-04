@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taiko Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
     <style>
         #textArea {
             width: 100%;
@@ -11,10 +15,12 @@
             border: 1px dotted #eee;
             padding: 10px;
             font-size: 16px;
+            font-family: 'Ubuntu Mono', monospace;
         }
         table {
             border-collapse: collapse;
             margin-top: 20px;
+            font-family: 'Ubuntu Mono', monospace;
         }
         tr:nth-child(3n) td {
             border: none;
@@ -87,10 +93,11 @@
                     '>': '>',
                     '<': '<',
                     '\n': '<br>',
+                    '|': '|',
                 };
                 leftKeys = ['s', 'S', 'f', 'd', 'a', 'g', 'r', 'q', 'e'];
-                tallKeys = ['u', 'U', 'o', ':', '2', '4'];
-                quarterNoteKeys = ['j', 'f', 'U', 'o', 'L', 'S'];
+                tallKeys = ['u', 'U', 'o', ':', '2', '4', '|'];
+                quarterNoteKeys = ['j', 'f', 'U', 'o', 'S'];
                 let keysEntered = [];
 
                 row_index = 0;
