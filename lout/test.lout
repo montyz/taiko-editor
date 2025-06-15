@@ -1,0 +1,12 @@
+@SysInclude { doc }
+@Doc @Text @Begin
+@Display @Heading {Shukusei}
+Some Text
+@PP
+@I More Text
+@LP
+{0.5w @HShift Tsu /0.2m 0.5w @HShift smallcaps @Font r}{0.5w @HShift ku /0.2m 0.5w @HShift smallcaps @Font l}
+{0.5w @HShift Tsu /0.2m 0.5w @HShift smallcaps @Font r}{0.5w @HShift ku /0.2m 0.5w @HShift smallcaps @Font l}
+{0.5w @HShift Do /0.2m 0.5w @HShift smallcaps @Font r}{0.5w @HShift ro /0.2m 0.5w @HShift smallcaps @Font l}
+{0.5w @HShift Do /0.2m 0.5w @HShift smallcaps @Font r}{0.5w @HShift ro /0.2m 0.5w @HShift smallcaps @Font l}
+@End @Text
