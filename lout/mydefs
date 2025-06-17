@@ -2,10 +2,16 @@ def @Strike
   left hit
   right hand
 {
-  0.5w @HShift hit /0.2m 0.5w @HShift -3p @Font hand
+  0.5w @HShift hit /0.5m 0.5w @HShift -3p @Font hand
 }
 
 def @tsuL {tsu @Strike L}
 def @tsuR {tsu @Strike R}
 def @kuL {ku @Strike L}
-def @tsuku {{@tsuR}{@kuL}}
+def @tsuku {@tsuR | @kuL}
+def @doL {do @Strike L}
+def @doR {do @Strike R}
+def @koL {ko @Strike L}
+def @roL {ro @Strike L}
+def @doko {@doR | @koL}
+def @doro {@doR | @roL}
