@@ -1,6 +1,7 @@
 @SysInclude { doc }
 @Doc @Text @Begin
 @Display @Heading {Shukusei}
+@LP
 @donL @donR KA @Strike RL @tsuR | @kuL Su | do @Strike R @tsuku @doko @doro @kara
 
 @End @Text
