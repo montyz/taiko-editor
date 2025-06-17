@@ -15,3 +15,9 @@ def @koL {ko @Strike L}
 def @roL {ro @Strike L}
 def @doko {@doR | @koL}
 def @doro {@doR | @roL}
+def @donL {don @Strike L}
+def @donR {don @Strike R}
+def @kaL {ka @Strike L}
+def @kaR {ka @Strike R}
+def @raL {ra @Strike L}
+def @kara{@kaR | @raL}
