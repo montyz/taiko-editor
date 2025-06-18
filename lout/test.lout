@@ -1,7 +1,8 @@
-@SysInclude { doc }
+@Include { taikodoc }
 @Doc @Text @Begin
-@Display @Heading {Shukusei}
-@LP
-@donL @donR KA @Strike RL @tsuR | @kuL Su | do @Strike R @tsuku @doko @doro @kara
+@Display @Heading {Matsuri}
+@donL @donR Su @tsuR | @kuL Su | do @Strike R @tsuku @doko @doro @kara | @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 2x} 
+/ @donL @donR Su @tsuR | @kuL Su | do @Strike R @tsuku @doko @doro @kara
+/ @donL @donR Su @tsuR | @kuL Su | do @Strike R @tsuku @doko @doro @kara | @VSpan | @VSpan
 
 @End @Text
