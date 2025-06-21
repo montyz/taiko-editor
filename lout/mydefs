@@ -20,6 +20,6 @@ def @donR {don @Strike R}
 def @kaL {ka @Strike L}
 def @kaR {ka @Strike R}
 def @raL {ra @Strike L}
-def @kara{@kaR | @raL}
+def @kara {@kaR | @raL}
 
 macro @RowGap { /2vx }

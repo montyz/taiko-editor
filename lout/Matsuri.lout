@@ -1,0 +1,12 @@
+@SysInclude {tbl}
+@Include { taikodoc }
+@Doc @Text @Begin
+@Display @Heading {Matsuri}
+
+@donR Su @donL Su @donR @kara @kaL @kaR | @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x} 
+@RowGap @donR @donL Su @donR @donL @kara @kaL @kaR
+@RowGap Kri @donR Kri @donL @donR @kara @kaL @kaR
+@RowGap @doro @kara Su @donL @donR @kara @kaL @kaR
+@RowGap @kara @doko @donR @donL @donR @kara @kaL @kaR 
+
+@End @Text
