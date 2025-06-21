@@ -3,10 +3,15 @@
 @Doc @Text @Begin
 @Display @Heading {Matsuri}
 
-@donR Su @donL Su @donR @kara @kaL @kaR | @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x} 
-@RowGap @donR @donL Su @donR @donL @kara @kaL @kaR
-@RowGap Kri @donR Kri @donL @donR @kara @kaL @kaR
-@RowGap @doro @kara Su @donL @donR @kara @kaL @kaR
-@RowGap @kara @doko @donR @donL @donR @kara @kaL @kaR 
+#@Tbl
+ # rule { yes }
+ # aformat { @Cell A | @Cell B | @Cell C | @Cell D | @Cell E | @Cell F | @Cell G | @Cell H | @StartVSpan @Cell @VScale I | 0.2m @StartVSpan @Cell { /0.5rt J} }
+ # bformat { @Cell A | @Cell B | @Cell C | @Cell D | @Cell E | @Cell F | @Cell G | @Cell H | @VSpan | @VSpan
+
+@ObjectOutline @donR | @ObjectOutline Su | @donL | Su | @donR | @kara | @kaL | @kaR | @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
+@RowGap @ObjectOutline @donR | @ObjectOutline @donL | Su | @donR | @donL | @kara | @kaL | @kaR
+@RowGap @ObjectOutline {0.5w @HShift Kri} | @ObjectOutline @donR | Kri | @donL | @donR | @kara | @kaL | @kaR
+@RowGap @ObjectOutline @doro | @ObjectOutline @kara | Su | @donL | @donR | @kara | @kaL | @kaR
+@RowGap @ObjectOutline @kara | @ObjectOutline @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan
 
 @End @Text

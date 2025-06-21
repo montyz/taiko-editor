@@ -2,7 +2,7 @@ def @Strike
   left hit
   right hand
 {
-  0.5w @HShift hit /0.5m 0.5w @HShift -3p @Font hand
+  @OneRow @OneCol 0.5w @HShift hit /0.5m 0.5w @HShift -3p @Font hand
 }
 
 def @tsuL {tsu @Strike L}
@@ -23,3 +23,17 @@ def @raL {ra @Strike L}
 def @kara {@kaR | @raL}
 
 macro @RowGap { /2vx }
+
+def @ObjectOutline right obj {
+{
+0 0 moveto
+0 ysize lineto
+xsize ysize lineto
+xsize 0 lineto
+closepath 
+1.0 0.0 0.0 setrgbcolor 
+0 setlinewidth 
+stroke
+}       
+        @Graphic obj
+} 
