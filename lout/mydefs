@@ -2,7 +2,7 @@ def @Strike
   left hit
   right hand
 {
-  @OneRow @OneCol {0.5w @HShift hit /0.5m 0.5w @HShift -3p @Font hand}
+  @OneRow @OneCol 0i @HShift {0.5w @HShift hit /0.5m 0.5w @HShift -3p @Font hand}
 }
 
 def @tsuL {tsu @Strike L}
@@ -21,8 +21,8 @@ def @kaL {ka @Strike L}
 def @kaR {ka @Strike R}
 def @raL {ra @Strike L}
 def @kara {@OneRow @OneCol {@kaR | @raL}}
-def @Kri {0.5w @HShift Kri}
-def @Su {0.5w @HShift Su}
+def @Kri {0i @HShift Kri}
+def @Su {0i @HShift Su}
 
 macro @RowGap { /2vx }
 

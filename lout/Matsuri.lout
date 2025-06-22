@@ -8,8 +8,8 @@
  # aformat { @Cell A | @Cell B | @Cell C | @Cell D | @Cell E | @Cell F | @Cell G | @Cell H | @StartVSpan @Cell @VScale I | 0.2m @StartVSpan @Cell { /0.5rt J} }
  # bformat { @Cell A | @Cell B | @Cell C | @Cell D | @Cell E | @Cell F | @Cell G | @Cell H | @VSpan | @VSpan
 
-@donR |5mx @Su |5mx @donL |5mx @Su |5mx @donR |5mx @kara |5mx @kaL |5mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
-@RowGap @donR | @donL | @Su | @donR | @donL | @kara | @kaL | @kaR
+@donR |8mx @ObjectOutline @Su |8mx @ObjectOutline @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
+@RowGap @donR | @donL | @ObjectOutline @Su | @donR | @donL | @kara | @kaL | @kaR
 @RowGap @Kri | @donR | @Kri | @donL | @donR | @kara | @kaL | @kaR
 @RowGap @doro | @kara | @Su | @donL | @donR | @kara | @kaL | @kaR
 @RowGap @kara | @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan
