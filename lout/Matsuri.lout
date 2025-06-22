@@ -1,12 +1,9 @@
 @SysInclude {tbl}
 @Include { taikodoc }
 @Doc @Text @Begin
-@Display @Heading {Matsuri}
-
-#@Tbl
- # rule { yes }
- # aformat { @Cell A | @Cell B | @Cell C | @Cell D | @Cell E | @Cell F | @Cell G | @Cell H | @StartVSpan @Cell @VScale I | 0.2m @StartVSpan @Cell { /0.5rt J} }
- # bformat { @Cell A | @Cell B | @Cell C | @Cell D | @Cell E | @Cell F | @Cell G | @Cell H | @VSpan | @VSpan
+@Display {Matsuri}
+@Display 16p @Font {Elbow Room Taiko Hillclimb Arrangement}
+@LeftDisplay 14p @Font {Theme}
 
 @donR |8mx @Su |8mx @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
 @RowGap @donR | @donL | @Su | @donR | @donL | @kara | @kaL | @kaR
