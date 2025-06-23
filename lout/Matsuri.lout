@@ -6,7 +6,7 @@
 @LeftDisplay 14p @Font {Theme}
 
 @donR |8mx @Su |8mx @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
-@RowGap @donR | @donL | @Su | @donR | @donL | @kara | @kaL | @kaR
+@RowGap @donR | @donL | @ObjectOutline @Su | @donR | @donL | @kara | @kaL | @kaR
 @RowGap @Kri | @donR | @Kri | @donL | @donR | @kara | @kaL | @kaR
 @RowGap @doro | @kara | @Su | @donL | @donR | @kara | @kaL | @kaR
 @RowGap @kara | @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan

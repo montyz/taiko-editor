@@ -36,6 +36,13 @@ closepath
 1.0 0.0 0.0 setrgbcolor 
 0 setlinewidth 
 stroke
+xmark 0 moveto
+xmark ysize lineto
+0 ymark moveto
+xsize ymark lineto
+0.0 1.0 0.0 setrgbcolor 
+0 setlinewidth 
+stroke
 }       
         @Graphic obj
 } 
