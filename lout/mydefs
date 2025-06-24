@@ -2,27 +2,27 @@ def @Strike
   left hit
   right hand
 {
-  @OneRow @OneCol 0i @HShift {0.5w @HShift hit /0.5m 0.5w @HShift -3p @Font hand}
+  @OneRow @OneCol smallcaps @Font 0i @HShift {0.5w @HShift hit /0.5m 0.5w @HShift -12p @Font hand}
 }
 
 def @tsuL {tsu @Strike L}
 def @tsuR {tsu @Strike R}
 def @kuL {ku @Strike L}
-def @tsuku {@OneRow @OneCol {@tsuR | @kuL}}
+def @tsuku {@OneRow @OneCol smallcaps @Font {@tsuR | @kuL}}
 def @doL {do @Strike L}
 def @doR {do @Strike R}
 def @koL {ko @Strike L}
 def @roL {ro @Strike L}
-def @doko {@OneRow @OneCol {@doR | @koL}}
-def @doro {@OneRow @OneCol {@doR | @roL}}
+def @doko {@OneRow @OneCol smallcaps @Font {@doR | @koL}}
+def @doro {@OneRow @OneCol smallcaps @Font {@doR | @roL}}
 def @donL {don @Strike L}
 def @donR {don @Strike R}
 def @kaL {ka @Strike L}
 def @kaR {ka @Strike R}
 def @raL {ra @Strike L}
-def @kara {@OneRow @OneCol {@kaR | @raL}}
-def @Kri {0i @HShift Kri}
-def @Su {0i @HShift Su}
+def @kara {@OneRow @OneCol smallcaps @Font {@kaR | @raL}}
+def @Kri {smallcaps @Font 0i @HShift kri}
+def @Su {smallcaps @Font 0i @HShift su}
 
 macro @RowGap { /2vx }
 
