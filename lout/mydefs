@@ -5,25 +5,25 @@ def @Strike
   @OneRow @OneCol 0i @HShift {0.5w @HShift hit /0.5m 0.5w @HShift -6p @Font hand}
 }
 
-def @tsuL {TSU @Strike L}
-def @tsuR {TSU @Strike R}
-def @kuL {KU @Strike L}
+def @tsuL {Tsu @Strike L}
+def @tsuR {Tsu @Strike R}
+def @kuL {ku @Strike L}
 def @tsuku {@OneRow @OneCol {@tsuR | @kuL}}
-def @doL {DO @Strike L}
-def @doR {DO @Strike R}
-def @koL {KO @Strike L}
-def @roL {RO @Strike L}
+def @doL {Do @Strike L}
+def @doR {Do @Strike R}
+def @koL {ko @Strike L}
+def @roL {ro @Strike L}
 def @doko {@OneRow @OneCol {@doR | @koL}}
 def @doro {@OneRow @OneCol {@doR | @roL}}
-def @donL {DON @Strike L}
-def @donR {DON @Strike R}
-def @kaL {KA @Strike L}
-def @kaR {KA @Strike R}
-def @kaRL {KA @Strike RL}
-def @raL {RA @Strike L}
+def @donL {Don @Strike L}
+def @donR {Don @Strike R}
+def @kaL {Ka @Strike L}
+def @kaR {Ka @Strike R}
+def @kaRL {Ka @Strike RL}
+def @raL {ra @Strike L}
 def @kara {@OneRow @OneCol {@kaR | @raL}}
-def @Kri {0i @HShift KRI}
-def @Su {0i @HShift SU}
+def @Kri {0i @HShift Kri}
+def @Su {0i @HShift su}
 
 macro @RowGap { /1.5vx }
 
