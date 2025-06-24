@@ -3,12 +3,23 @@
 @Doc @Text @Begin
 @Display {Matsuri}
 @Display 16p @Font {Elbow Room Taiko Hillclimb Arrangement}
+@LeftDisplay 14p @Font {Ji Pattern}
+
+1 |4mx @donR |8mx @doko |8mx @doR |8mx @roL |8mx @donR |8mx @doko |8mx @doR |8mx @roL
+
 @LeftDisplay 14p @Font {Theme}
 
-@donR |8mx @Su |8mx @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
-@RowGap @donR | @donL | @ObjectOutline @Su | @donR | @donL | @kara | @kaL | @kaR
-@RowGap @Kri | @donR | @Kri | @donL | @donR | @kara | @kaL | @kaR
-@RowGap @doro | @kara | @Su | @donL | @donR | @kara | @kaL | @kaR
-@RowGap @kara | @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan
+1 |4mx @donR |8mx @Su |8mx @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
+@RowGap 2 | @donR | @donL | @Su | @donR | @donL | @kara | @kaL | @kaR
+@RowGap 3 | @Kri | @donR | @Kri | @donL | @donR | @kara | @kaL | @kaR
+@RowGap 4 | @doro | @kara | @Su | @donL | @donR | @kara | @kaL | @kaR
+@RowGap 5 | @kara | @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan
+
+@LeftDisplay 14p @Font { Ending }
+
+1 |4mx @kara |7mx @doko |7mx @kara |7mx @doko |7mx @kara |7mx @doko |7mx @kara |7mx @doko 
+@RowGap 2 | @kara | @doko | @donR | @donL | @donR | @Su | @kaRL 
+
+@LD{Solo Ending: /1vx {4 Ji patterns + Ending}}
 
 @End @Text
