@@ -1,0 +1,2 @@
+Matsuri:
+  lout -F afm Matsuri.lout -o Matsuri.ps
