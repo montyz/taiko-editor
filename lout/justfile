@@ -1,2 +1,2 @@
 Matsuri:
-  lout -F afm Matsuri.lout -o Matsuri.ps
+  lout -F afm Matsuri.lout -o Matsuri.ps ; evince Matsuri.ps &
