@@ -2,8 +2,8 @@
 @Include { taikodoc }
 @Database @FontDef  { myfontdefs }
 @Doc @Text @Begin
-@Display 18p @Font {Matsuri}
-@Display 16p @Font {Elbow Room Taiko Hillclimb Arrangement}
+@Display {WarnockPro BoldSubhead 16p} @Font 18p @Font {Matsuri}
+@Display {Elbow Room Taiko Hillclimb Arrangement}
 @Display { Festival theme, loose, free }
 @LeftDisplay 14p @Font {Ji Pattern}
 
@@ -22,6 +22,6 @@
 7. |4mx @kara |7mx @doko |7mx @kara |7mx @doko |7mx @kara |7mx @doko |7mx @kara |7mx @doko 
 @RowGap 8. | @kara | @doko | @donR | @donL | @donR | @Su | @kaRL 
 
-@LD { 14p @Font {Solo Ending:} /1.5vx {4 Ji patterns + Ending}}
+@LD 14p @Font {Solo Ending: /1.5vx |4mo {4 Ji patterns + Ending}}
 
 @End @Text
