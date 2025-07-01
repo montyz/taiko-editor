@@ -52,7 +52,7 @@
   # @FixedWidthFont	{ Courier Base -1p	} # font for @F
   # @ParaGap		{ 1.3vx @OrIfPlain 1f	} # gap between paragraphs
   # @ParaIndent		{ 2.00f	@OrIfPlain 5s	} # first-line indent for @PP
-  # @DisplayGap		{ 1.00v	@OrIfPlain 1f	} # gap above, below displays
+  @DisplayGap		{ 0.75v	@OrIfPlain 1f	} # gap above, below displays
   # @DisplayIndent	{ 2.00f	@OrIfPlain 5s	} # @IndentedDisplay indent
   # @DefaultIndent	{ 0.5rt			} # @Display indent
   # @DisplayNumStyle	{ (num)			} # style of display numbers
