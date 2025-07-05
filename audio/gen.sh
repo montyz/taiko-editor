@@ -10,3 +10,7 @@ gtts-cli 'ko' -l ja --output ko.mp3
 gtts-cli 'su' -l ja --output su.mp3
 gtts-cli 'ソレ' -l ja --output sore.mp3
 gtts-cli 'kri' -l en --output kri.mp3
+gtts-cli 'two' -l en --output two.mp3
+gtts-cli 'three' -l en --output three.mp3
+gtts-cli 'four' -l en --output four.mp3
+
