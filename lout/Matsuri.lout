@@ -2,7 +2,7 @@
 @Include { taikodoc }
 @Database @FontDef  { myfontdefs }
 @Doc @Text @Begin
-@Display {WarnockPro BoldSubhead 16p} @Font 18p @Font {Matsuri}
+@Display {WarnockPro BoldSubhead 18p} @Font {Matsuri}
 @Display {Elbow Room Taiko Hillclimb Arrangement}
 @Display { Festival theme, loose, free }
 @LeftDisplay 14p @Font {Ji Pattern}
