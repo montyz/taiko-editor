@@ -1,0 +1,16 @@
+{
+  "_base": "https://raw.githubusercontent.com/montyz/taiko-editor/master/audio",
+  "do": "do.mp3",
+  "don": "don.mp3",
+  "four": "four.mp3",
+  "ka": "ka.mp3",
+  "ko": "ko.mp3",
+  "kri": "kri.mp3",
+  "ku": "ku.mp3",
+  "ra": "ra.mp3",
+  "sore": "sore.mp3",
+  "su": "su.mp3",
+  "three": "three.mp3",
+  "tsu": "tsu.mp3",
+  "two": "two.mp3"
+}
