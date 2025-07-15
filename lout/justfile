@@ -1,2 +1,9 @@
 Matsuri:
-  lout -PDF -F afm Matsuri.lout -o tmp.pdf; gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Matsuri.pdf tmp.pdf ; evince Matsuri.pdf &
+  lout -PDF -F afm Matsuri.lout -o tmp.pdf; 
+  gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Matsuri.pdf tmp.pdf
+  evince Matsuri.pdf &
+
+Taki1:
+  lout -PDF -F afm Taki1.lout -o tmp.pdf; 
+  gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Taki1.pdf tmp.pdf
+  evince Taki1.pdf &
