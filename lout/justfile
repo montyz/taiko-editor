@@ -1,2 +1,7 @@
 Matsuri:
   lout -PDF -F afm Matsuri.lout -o tmp.pdf; gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Matsuri.pdf tmp.pdf ; evince Matsuri.pdf &
+
+Takinobori:
+  lout -PDF -F afm Takinobori.lout -o tmp.pdf
+  gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Takinobori.pdf tmp.pdf
+  evince Takinobori.pdf &
