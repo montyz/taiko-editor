@@ -1,31 +1,3 @@
-def @Strike
-  left hit
-  right hand
-{
-  @OneRow @OneCol 0i @HShift {0.5w @HShift hit /0.5m 0.5w @HShift -6p @Font hand}
-}
-
-def @tsuL {Tsu @Strike L}
-def @tsuR {Tsu @Strike R}
-def @kuL {ku @Strike L}
-def @tsuku {@OneRow @OneCol {@tsuR | @kuL}}
-def @doL {Do @Strike L}
-def @doR {Do @Strike R}
-def @koL {ko @Strike L}
-def @roL {ro @Strike L}
-def @doko {@OneRow @OneCol {@doR | @koL}}
-def @doro {@OneRow @OneCol {@doR | @roL}}
-def @donL {Don @Strike L}
-def @donR {Don @Strike R}
-def @kaL {Ka @Strike L}
-def @kaR {Ka @Strike R}
-def @kaRL {Ka @Strike RL}
-def @raL {ra @Strike L}
-def @kara {@OneRow @OneCol {@kaR | @raL}}
-def @Kri {0i @HShift Kri}
-def @Su {0i @HShift su}
-
-macro @RowGap { /1.5vx }
 
 def @ObjectOutline right obj {
 {
@@ -47,3 +19,39 @@ stroke
 }       
         @Graphic obj
 } 
+# center hit, vertical gap of 0.5m, center hand and make it 6p smaller, 
+# set the mark to left edge, condense object into one col and one row
+def @Strike
+  left hit
+  right hand
+{
+  @OneRow @OneCol 0.5w @HShift {0.5w @HShift hit /0.5m 0.5w @HShift 0.75f @Font hand}
+}
+
+def @tsuL {Tsu @Strike L}
+def @tsuR {Tsu @Strike R}
+def @kuL {ku @Strike L}
+def @tsuku {@OneRow @OneCol {@tsuR | @kuL}}
+def @doL {Do @Strike L}
+def @doR {Do @Strike R}
+def @koL {ko @Strike L}
+def @roL {ro @Strike L}
+def @doko {@OneRow @OneCol {@doR | @koL}}
+def @doro {@OneRow @OneCol {@doR | @roL}}
+def @donL {Don @Strike L}
+def @donR {Don @Strike R}
+def @kaL {Ka @Strike L}
+def @kaR {Ka @Strike R}
+def @kaRL {Ka @Strike RL}
+def @raL {ra @Strike L}
+def @kara {@OneRow @OneCol {@kaR | @raL}}
+def @Kri {0.5w @HShift Kri}
+def @Su {0.5w @HShift su}
+
+macro @RowGap { /1.5vx }
+
+def @HLine
+{
+  "-"
+}
+

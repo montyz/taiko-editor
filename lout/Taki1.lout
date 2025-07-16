@@ -1,0 +1,20 @@
+@SysInclude {tbl}
+@Include { taikodoc }
+@Database @FontDef  { myfontdefs }
+1m @YUnit
+@Doc @Text @Begin
+@Display {WarnockPro BoldSubhead 18p} @Font {Taki}
+@Display { Salmon swimming upstream }
+@LeftDisplay 14p @Font {Test 1}
+
+1. |4mx @donR |1yx {} |1yx @koL |1yx @donR |1yx {} |1yx @koL |1yx @donR |1yx {} 
+@RowGap 2. | @Su | {} | @kaR | @raL | @kaR | @raL | @kaR | @raL 
+
+@LeftDisplay 14p @Font {Test 2}
+1. |4mx @donR |1ye { @HLine } |1ye @koL |1ye @donR |1ye { @HLine } |1ye @koL |1ye @donR |1ye { @HLine } 
+   |1ye @tsuR @HLine |1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL
+@RowGap 2. | @Su | { @HLine } | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
+   | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
+
+
+@End @Text
