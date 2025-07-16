@@ -28,7 +28,7 @@ def @Strike
   @OneRow @OneCol 0.5w @HShift {0.5w @HShift hit /0.5m 0.5w @HShift 0.75f @Font hand}
 }
 
-def @tsuL { @ObjectOutline {Tsu @Strike L} }
+def @tsuL {Tsu @Strike L}
 def @tsuR {Tsu @Strike R}
 def @kuL {ku @Strike L}
 def @tsuku {@OneRow @OneCol {@tsuR | @kuL}}

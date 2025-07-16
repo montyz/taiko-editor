@@ -11,9 +11,9 @@
 @RowGap 2. | @Su | {} | @kaR | @raL | @kaR | @raL | @kaR | @raL 
 
 @LeftDisplay 14p @Font {Test 2}
-1. |4mx @donR |1ye { @HLine } |1ye @koL |1ye @donR |1ye { @HLine } |1ye @koL |1ye @donR |1ye { @HLine } |1ye @ObjectOutline @tsuR @HLine |1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL
+1. |4mx @donR |1ye { @HLine } |1ye @koL |1ye @donR |1ye { @HLine } |1ye @koL |1ye @donR |1ye { @HLine } |1ye @tsuR @HLine |1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL
 @RowGap 2. | @Su | {  } | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
-   | @kaR @HLine| @ObjectOutline @raL | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
+   | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
 
 
 @End @Text
