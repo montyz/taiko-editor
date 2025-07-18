@@ -1,0 +1,27 @@
+@SysInclude {tbl}
+@Include { taikodoc }
+@Database @FontDef  { myfontdefs }
+@Doc @Text @Begin
+@Display {WarnockPro BoldSubhead 18p} @Font {Takinobori}
+@Display {by Ikuyo Conant}
+@Display { Salmon swimming upstream }
+@LeftDisplay 14p @Font {Lesson 1}
+
+1. |4mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 2x}
+@RowGap 2. | @Su | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku 
+@RowGap 3. | @doro | @doro | @doro | @doro | @doro | @doro | @doro | @doro 
+@RowGap 4. | @Su | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku 
+@RowGap 5. | @doro | @doro | @Su | @tsuku | @doro | @doro | @Su | @tsuku
+@RowGap 6. | @doro | @Su | @tsuku | @tsuku | @doro | @doro | @donL | @donR
+@RowGap 7. | @Su | @tsuku | @tsuku | @tsuku | @doro | @doro | @donL | @donR
+@RowGap 8. | @kara | @doko | @doko | @donL | {} | {} | {} | {} | @VSpan | @VSpan
+
+@LeftDisplay 14p @Font {Lesson 2}
+9. |4mx @donR |8mx @koL |8mx @donR |8mx @koL |8mx @donR |8mx @tsuku |8mx @tsuku |8mx @tsuku 
+@RowGap 10. | @Su | @kara | @kara | @kara | @kara | @kara | @kara | @doko 
+@RowGap 11. | @Su | @kara | @kara | @doko | @kara | @doko | @kara | @doko 
+@RowGap 12. | @donR | @koL | @donR | @koL | @donR | @tsuku | @tsuku | @tsuku 
+@RowGap 13. | @Su | @kara | @kara | @kara | @kara | @kara | @kara | @doko 
+@RowGap 14. | @Su | @kara | @kara | @doko | @kara | @doko | @kara | @doko 
+
+@End @Text
