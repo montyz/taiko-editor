@@ -15,6 +15,5 @@
    |1ye @tsuR @HLine |1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL |1ye @tsuR @HLine|1ye @kuL
 @RowGap 2. | @Su | { @HLine } | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
    | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL | @kaR @HLine| @raL 
-
-
+| @donR  @donL| @tsuR | @kuL
 @End @Text

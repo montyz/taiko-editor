@@ -1,0 +1,17 @@
+{
+	// Place your taiko-editor workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"t4ye": {
+		"scope": "",
+		"prefix": "taiko",
+		"body": [
+			"|${1| ,1ye |}@${2|donR,donL,su,Su,tsuR,tsuL,kuL,doR,doL,koL,roL,kaR,kaL,raL,Kri,@HLine|} ${1| ,1ye |}@${3|donR,donL,su,Su,tsuR,tsuL,kuL,doR,doL,koL,roL,kaR,kaL,raL,Kri,@HLine|}|${1| ,1ye |}@${4|donR,donL,su,Su,tsuR,tsuL,kuL,doR,doL,koL,roL,kaR,kaL,raL,Kri,@HLine|} |${1| ,1ye |}@${5|donR,donL,Su,tsuR,tsuL,kuL,doR,doL,koL,roL,kaR,kaL,raL,Kri,@HLine|}",
+		],
+		"description": "Insert 4 columns"
+	}
+}
