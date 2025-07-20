@@ -46,10 +46,12 @@ def @kaRL {Ka @Strike RL}
 def @raL {ra @Strike L}
 def @kara {@OneRow @OneCol  0.5w @HShift {@kaR | @raL}}
 def @Kri {0.5w @HShift Kri}
-def @Su {0.5w @HShift su}
+def @Su {0.5w @HShift Su}
+def @su {0.5w @HShift su}
 
 def @kaRe {@OneRow @OneCol  0.5w @HShift {su- @Strike {} | @kaR }}
 def @raLe {@OneRow @OneCol  0.5w @HShift { @raL | -su @Strike {}}}
+def @sudo {@OneRow @OneCol  0.5w @HShift {@su - | @doR}}
 
 macro @RowGap { /1.85vx }
 

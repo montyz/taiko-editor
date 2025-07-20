@@ -12,3 +12,8 @@ Taki1:
   lout -F afm Taki1.lout -o tmp.ps; 
   gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Taki1.pdf tmp.ps
   evince Taki1.pdf &
+
+Shukusei:
+  lout -F afm Shukusei.lout -o tmp.ps; 
+  gs "-sFONTPATH=/usr/local/share/fonts/Font/Western Fonts/Warnock Pro/Subhead/" -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dEmbedAllFonts=true -sOutputFile=Shukusei.pdf tmp.ps
+  evince Shukusei.pdf &

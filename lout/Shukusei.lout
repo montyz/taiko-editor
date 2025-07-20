@@ -1,0 +1,52 @@
+@SysInclude {tbl}
+@Include { shukuseidoc }
+@Database @FontDef  { myfontdefs }
+9m @YUnit
+@Doc @Text @Begin
+@Display {WarnockPro BoldSubhead 18p} @Font {Shukusei}
+@Display { Disciplined, strong }
+@LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Intro}
+
+@Tbl 
+aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}"  @Cell indentvertical { ctr } I } }
+bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
+cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell I }
+{
+@Rowa
+ Z { 1. }
+ A { @doko }
+ B { @doko }
+ C { @doko }
+ D { @doko }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @doko }
+ I { 2x }
+
+@Rowb
+ Z { 2. }
+ A { @doko }
+ B { @doko }
+ C { @doko }
+ D { @doko }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @tsuku }
+
+@Rowc
+ Z { 3. }
+ A { @sudo }
+ B { @sudo }
+ C { @donR }
+ D { @donL }
+ E { @sudo }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+ I { 4x }
+}
+
+
+@End @Text
