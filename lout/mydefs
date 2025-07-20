@@ -31,27 +31,27 @@ def @Strike
 def @tsuL {Tsu @Strike L}
 def @tsuR {Tsu @Strike R}
 def @kuL {ku @Strike L}
-def @tsuku {@OneRow @OneCol {@tsuR | @kuL}}
+def @tsuku {@OneRow @OneCol  0.5w @HShift {@tsuR | @kuL}}
 def @doL {Do @Strike L}
 def @doR {Do @Strike R}
 def @koL {ko @Strike L}
 def @roL {ro @Strike L}
-def @doko {@OneRow @OneCol {@doR | @koL}}
-def @doro {@OneRow @OneCol {@doR | @roL}}
+def @doko {@OneRow @OneCol  0.5w @HShift {@doR | @koL}}   
+def @doro {@OneRow @OneCol  0.5w @HShift {@doR | @roL}}
 def @donL {Don @Strike L}
 def @donR {Don @Strike R}
 def @kaL {Ka @Strike L}
 def @kaR {Ka @Strike R}
 def @kaRL {Ka @Strike RL}
 def @raL {ra @Strike L}
-def @kara {@OneRow @OneCol {@kaR | @raL}}
+def @kara {@OneRow @OneCol  0.5w @HShift {@kaR | @raL}}
 def @Kri {0.5w @HShift Kri}
 def @Su {0.5w @HShift su}
 
-def @kaRe {@OneRow @OneCol {su- @Strike {} | @kaR }}
-def @raLe {@OneRow @OneCol { @raL | -su @Strike {}}}
+def @kaRe {@OneRow @OneCol  0.5w @HShift {su- @Strike {} | @kaR }}
+def @raLe {@OneRow @OneCol  0.5w @HShift { @raL | -su @Strike {}}}
 
-macro @RowGap { /1.5vx }
+macro @RowGap { /1.85vx }
 
 def @HLine
 {
