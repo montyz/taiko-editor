@@ -5,11 +5,11 @@
 @Display {WarnockPro BoldSubhead 18p} @Font {Matsuri}
 @Display {Elbow Room Taiko Hillclimb Arrangement}
 @Display { Festival theme, loose, free }
-@LeftDisplay 14p @Font {Ji Pattern}
+@LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Ji Pattern}
 
 1. |4mx @donR |8mx @doko |8mx @doR |8mx @roL |8mx @donR |8mx @doko |8mx @doR |8mx @roL
 
-@LeftDisplay 14p @Font {Theme}
+@LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Theme}
 
 2. |4mx @donR |8mx @Su |8mx @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
 @RowGap 3. | @donR | @donL | @Su | @donR | @donL | @kara | @kaL | @kaR
@@ -17,11 +17,11 @@
 @RowGap 5. | @doro | @kaRe | @raLe | @donL | @donR | @kara | @kaL | @kaR
 @RowGap 6. | @kara | @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan
 
-@LeftDisplay 14p @Font { Ending }
+@LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Ending }
 
 7. |4mx @kara |7mx @doko |7mx @kara |7mx @doko |7mx @kara |7mx @doko |7mx @kara |7mx @doko 
 @RowGap 8. | @kara | @doko | @donR | @donL | @donR | @Su | @kaRL 
 
-@LD 14p @Font {Solo Ending: /1.5vx |4mo {4 Ji patterns + Ending}}
+@LD {WarnockPro BoldSubhead 16p} @Font {Solo Ending: /1.5vx |4mo  {WarnockPro Subhead 18p} @Font {4 Ji patterns + Ending}}
 
 @End @Text
