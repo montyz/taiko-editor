@@ -14,7 +14,7 @@
 2. |4mx @donR |8mx @Su |8mx @donL |8mx @Su |8mx @donR |8mx @kara |8mx @kaL |8mx @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
 @RowGap 3. | @donR | @donL | @Su | @donR | @donL | @kara | @kaL | @kaR
 @RowGap 4. | @Kri | @donR | @Kri | @donL | @donR | @kara | @kaL | @kaR
-@RowGap 5. | @doro | @kara | @Su | @donL | @donR | @kara | @kaL | @kaR
+@RowGap 5. | @doro | @kaRe | @raLe | @donL | @donR | @kara | @kaL | @kaR
 @RowGap 6. | @kara | @doko | @donR | @donL | @donR | @kara | @kaL | @kaR | @VSpan | @VSpan
 
 @LeftDisplay 14p @Font { Ending }

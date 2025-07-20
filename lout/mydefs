@@ -48,6 +48,9 @@ def @kara {@OneRow @OneCol {@kaR | @raL}}
 def @Kri {0.5w @HShift Kri}
 def @Su {0.5w @HShift su}
 
+def @kaRe {@OneRow @OneCol {su- @Strike {} | @kaR }}
+def @raLe {@OneRow @OneCol { @raL | -su @Strike {}}}
+
 macro @RowGap { /1.5vx }
 
 def @HLine
