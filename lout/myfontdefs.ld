@@ -15,3 +15,13 @@
  @Metrics { WarnockPro-BoldSubh.afm }
  @Mapping { LtLatin1.LCM }
 }
+
+{ @FontDef
+ @Tag { WarnockPro-ItSubhead }
+ @Family { WarnockPro }
+ @Face { ItSubhead }
+ @Name { WarnockPro-ItSubh }
+ @Metrics { WarnockPro-ItSubh.afm }
+ @Mapping { LtLatin1.LCM }
+}
+

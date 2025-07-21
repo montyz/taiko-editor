@@ -8,10 +8,33 @@
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Intro}
 
 @Tbl 
-aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
-bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
-cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
 {
+@Rowd
+ Z {  }
+ A { 1 }
+ B { 2 }
+ C { 3 }
+ D { 4 }
+ E { 5 }
+ F { 6 }
+ G { 7 }
+ H { 8 }
+ I {  }
+
 @Rowa
  Z { 1. }
  A { @doko }
@@ -51,9 +74,16 @@ cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { y
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Theme 1 }
 
 @Tbl
-aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
-bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
-cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
 {
 @Rowa
  Z { 3. }
@@ -102,9 +132,16 @@ cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { y
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Part A }
 
 @Tbl
-aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
-bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
-cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
 {
 @Rowa
  Z { 3. }
@@ -134,9 +171,16 @@ cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { y
 @LeftDisplay  { {WarnockPro BoldSubhead 16p} @Font {Solo Ending } (Last half of {WarnockPro BoldSubhead 16p} @Font {Theme 1})}
 
 @Tbl
-aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
-bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
-cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
 {
 
 @Rowc
