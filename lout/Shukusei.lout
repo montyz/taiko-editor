@@ -50,4 +50,117 @@ cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { y
 
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Theme 1 }
 
+@Tbl
+aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
+cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+{
+@Rowa
+ Z { 3. }
+ A { @sudo }
+ B { @sudo }
+ C { @donR }
+ D { @donL }
+ E { @sudo }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+ I { 2x }
+@Rowb
+ Z { 4. }
+ A { @sudo }
+ B { @donL }
+ C { @sudo }
+ D { @donL }
+ E { @sudo }
+ F { @sudoL }
+ G { @sudo }
+ H { @donL }
+@Rowa
+ Z { 5. }
+ A { @donR }
+ B { @donL }
+ C { @doko }
+ D { @sudo }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+ I { 2x }
+@Rowb
+ Z { 6. }
+ A { @sudo }
+ B { @doko }
+ C { @donR }
+ D { @donL }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+}
+
+@LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Part A }
+
+@Tbl
+aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
+cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+{
+@Rowa
+ Z { 3. }
+ A { @donR }
+ B { @donL }
+ C { @doko }
+ D { @sudo }
+ E { @donR }
+ F { @donL }
+ G { @doko }
+ H { @sudo }
+ I { 2x }
+@Rowb
+ Z { 4. }
+ A { @donR }
+ B { @donL }
+ C { @doko }
+ D { @sudo }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+}
+
+@LeftDisplay { [Repeat  {WarnockPro BoldSubhead 16p} @Font {Theme 1}] }
+
+@LeftDisplay  { {WarnockPro BoldSubhead 16p} @Font {Solo Ending } (Last half of {WarnockPro BoldSubhead 16p} @Font {Theme 1})}
+
+@Tbl
+aformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+bformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @VSpan }
+cformat { @Cell Z | @Cell rule { yes } A | @Cell rule { yes } B | @Cell rule { yes } C | @Cell rule { yes } D | @Cell rule { yes } E  | @Cell rule { yes } F  | @Cell rule { yes } G  | @Cell rule { yes } H | @Cell marginhorizontal { 0.0f } I }
+{
+
+@Rowc
+ Z { 5. }
+ A { @donR }
+ B { @donL }
+ C { @doko }
+ D { @sudo }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+@Rowc
+ Z { 6. }
+ A { @sudo }
+ B { @doko }
+ C { @donR }
+ D { @donL }
+ E { @doko }
+ F { @doko }
+ G { @doko }
+ H { @donR }
+}
+
+@LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Theme 2 }
+
 @End @Text
