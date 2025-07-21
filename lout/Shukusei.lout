@@ -86,7 +86,7 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rul
   |1me @Cell marginhorizontal { 0.0f } I }
 {
 @Rowa
- Z { 3. }
+ Z { {WarnockPro ItSubhead} @Font 3. }
  A { @sudo }
  B { @sudo }
  C { @donR }
@@ -144,7 +144,7 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rul
   |1me @Cell marginhorizontal { 0.0f } I }
 {
 @Rowa
- Z { 3. }
+ Z { 7. }
  A { @donR }
  B { @donL }
  C { @doko }
@@ -155,7 +155,7 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rul
  H { @sudo }
  I { 2x }
 @Rowb
- Z { 4. }
+ Z { 8. }
  A { @donR }
  B { @donL }
  C { @doko }
@@ -180,11 +180,11 @@ bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rul
   
 cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
   |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
-  |1me @Cell marginhorizontal { 0.0f } I }
+  |8.5yt @Cell marginhorizontal { 0.0f } I }
 {
 
 @Rowc
- Z { 5. }
+ Z { {WarnockPro ItSubhead} @Font 5. }
  A { @donR }
  B { @donL }
  C { @doko }
@@ -193,8 +193,9 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rul
  F { @doko }
  G { @doko }
  H { @donR }
+ I { { 1x } }
 @Rowc
- Z { 6. }
+ Z { {WarnockPro ItSubhead} @Font 6. }
  A { @sudo }
  B { @doko }
  C { @donR }
@@ -203,8 +204,10 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rul
  F { @doko }
  G { @doko }
  H { @donR }
+ I { { } }
 }
 
+@NP
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Theme 2 }
 
 @End @Text

@@ -8,11 +8,13 @@
 @Display { Festival theme, loose, free }
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Ji Pattern}
 
-0. |0.5yt @donR |1.5yt @doko |2.5yt @doR |3.5yt @roL |4.5yt @donR |5.5yt @doko |6.5yt @doR |7.5yt @roL
+{} |0.5yt 0.5w @HShift 1 |1.5yt 0.5w @HShift 2 |2.5yt 0.5w @HShift 3 |3.5yt 0.5w @HShift 4 |4.5yt 0.5w @HShift 5 |5.5yt 0.5w @HShift 6 |6.5yt 0.5w @HShift 7 |7.5yt 0.5w @HShift 8 
+/1vx 0. |0.5yt @donR |1.5yt @doko |2.5yt @doR |3.5yt @roL |4.5yt @donR |5.5yt @doko |6.5yt @doR |7.5yt @roL
 
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Theme}
 
-1. |0.5yt @donR |1.5yt @su |2.5yt @donL |3.5yt @su |4.5yt @donR |5.5yt @kara |6.5yt @kaL |7.5yt @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
+{} |0.5yt 0.5w @HShift 1 |1.5yt 0.5w @HShift 2 |2.5yt 0.5w @HShift 3 |3.5yt 0.5w @HShift 4 |4.5yt 0.5w @HShift 5 |5.5yt 0.5w @HShift 6 |6.5yt 0.5w @HShift 7 |7.5yt 0.5w @HShift 8 
+/1vx 1. |0.5yt @donR |1.5yt @su |2.5yt @donL |3.5yt @su |4.5yt @donR |5.5yt @kara |6.5yt @kaL |7.5yt @kaR |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 3x}
 @RowGap 2. | @donR | @donL | @su | @donR | @donL | @kara | @kaL | @kaR
 @RowGap 3. | @Kri | @donR | @Kri | @donL | @donR | @kara | @kaL | @kaR
 @RowGap 4. | @doro | @kaRe | @raLe | @donL | @donR | @kara | @kaL | @kaR
@@ -20,7 +22,8 @@
 
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font { Ending }
 
-6. |.5yt @kara |1.5yt @doko |2.5yt @kara |3.5yt @doko |4.5yt @kara |5.5yt @doko |6.5yt @kara |7.5yt @doko 
+{} |0.5yt 0.5w @HShift 1 |1.5yt 0.5w @HShift 2 |2.5yt 0.5w @HShift 3 |3.5yt 0.5w @HShift 4 |4.5yt 0.5w @HShift 5 |5.5yt 0.5w @HShift 6 |6.5yt 0.5w @HShift 7 |7.5yt 0.5w @HShift 8 
+/1vx 6. |.5yt @kara |1.5yt @doko |2.5yt @kara |3.5yt @doko |4.5yt @kara |5.5yt @doko |6.5yt @kara |7.5yt @doko 
 @RowGap 7. | @kara | @doko | @donR | @donL | @donR | @su | @kaRL 
 
 @LD {WarnockPro BoldSubhead 16p} @Font {Solo Ending: /1.5vx |4mo  {WarnockPro Subhead 18p} @Font {4 Ji patterns + Ending}}

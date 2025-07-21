@@ -40,6 +40,7 @@ def @doko {@OneRow @OneCol  0.5w @HShift {@doR | @koL}}
 def @doro {@OneRow @OneCol  0.5w @HShift {@doR | @roL}}
 def @donL {Don @Strike L}
 def @donR {Don @Strike R}
+def @donko {@OneRow @OneCol  0.5w @HShift {@donR | @koL}}   
 def @kaL {Ka @Strike L}
 def @kaR {Ka @Strike R}
 def @kaRL {Ka @Strike RL}
@@ -51,8 +52,11 @@ def @su {0.5w @HShift su}
 
 def @kaRe {@OneRow @OneCol  0.5w @HShift {su- @Strike {} | @kaR }}
 def @raLe {@OneRow @OneCol  0.5w @HShift { @raL | -su @Strike {}}}
-def @sudo {@OneRow @OneCol  0.5w @HShift {@su - | @doR}}
-def @sudoL {@OneRow @OneCol  0.5w @HShift {@su - | @doL}}
+def @sudo {@OneRow @OneCol  0.5w @HShift {@su --- | @doR}}
+def @sudoL {@OneRow @OneCol  0.5w @HShift {@su --- | @doL}}
+def @sudon {@OneRow @OneCol  0.5w @HShift {@su --- | @donR}}
+def @tsudon {@OneRow @OneCol  0.5w @HShift {@tsuR - | @donL}}
+def @dashko {@OneRow @OneCol  0.5w @HShift { --- | @koL}}
 
 macro @RowGap { /1.85vx }
 

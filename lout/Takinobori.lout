@@ -1,27 +1,412 @@
 @SysInclude {tbl}
-@Include { taikodoc }
+@Include { takinoboridoc }
 @Database @FontDef  { myfontdefs }
+9m @YUnit
 @Doc @Text @Begin
-@Display {WarnockPro BoldSubhead 18p} @Font {Takinobori}
+@Display {WarnockPro BoldSubhead 18p} @Font {Takinobori Second Half}
 @Display {by Ikuyo Conant}
 @Display { Salmon swimming upstream }
-@LeftDisplay 14p @Font {Lesson 1}
+@LeftDisplay 14p @Font {Lesson 4}
 
-1. |4mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |8mx @doro |2mx @StartVSpan @VScale "}" |0.2m @StartVSpan { /0.5rt 2x}
-@RowGap 2. | @Su | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku 
-@RowGap 3. | @doro | @doro | @doro | @doro | @doro | @doro | @doro | @doro 
-@RowGap 4. | @Su | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku | @tsuku 
-@RowGap 5. | @doro | @doro | @Su | @tsuku | @doro | @doro | @Su | @tsuku
-@RowGap 6. | @doro | @Su | @tsuku | @tsuku | @doro | @doro | @donL | @donR
-@RowGap 7. | @Su | @tsuku | @tsuku | @tsuku | @doro | @doro | @donL | @donR
-@RowGap 8. | @kara | @doko | @doko | @donL | {} | {} | {} | {} | @VSpan | @VSpan
+@Tbl 
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
 
-@LeftDisplay 14p @Font {Lesson 2}
-9. |4mx @donR |8mx @koL |8mx @donR |8mx @koL |8mx @donR |8mx @tsuku |8mx @tsuku |8mx @tsuku 
-@RowGap 10. | @Su | @kara | @kara | @kara | @kara | @kara | @kara | @doko 
-@RowGap 11. | @Su | @kara | @kara | @doko | @kara | @doko | @kara | @doko 
-@RowGap 12. | @donR | @koL | @donR | @koL | @donR | @tsuku | @tsuku | @tsuku 
-@RowGap 13. | @Su | @kara | @kara | @kara | @kara | @kara | @kara | @doko 
-@RowGap 14. | @Su | @kara | @kara | @doko | @kara | @doko | @kara | @doko 
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
 
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
+{
+@Rowd
+ Z {  }
+ A { 1 }
+ B { 2 }
+ C { 3 }
+ D { 4 }
+ E { 5 }
+ F { 6 }
+ G { 7 }
+ H { 8 }
+ I {  }
+
+@Rowc
+ Z { 1. }
+ A { @kara }
+ B { @doko }
+ C { @kara }
+ D { @doko }
+ E { @kara }
+ F { @doko }
+ G { @Su }
+ H { @doko }
+
+@Rowc
+ Z { 1. }
+ A { @kara }
+ B { @doko }
+ C { @kara }
+ D { @doko }
+ E { @kara }
+ F { @doko }
+ G { @Su }
+ H { @doko }
+
+@Rowc
+ Z { 2. }
+ A { @kara }
+ B { @doko }
+ C { @kara }
+ D { @doko }
+ E { @Su }
+ F { @donko }
+ G { @doko }
+ H { @donR }
+
+@Rowc
+ Z { 2. }
+ A { @kara }
+ B { @doko }
+ C { @kara }
+ D { @doko }
+ E { @Su }
+ F { @donko }
+ G { @doko }
+ H { @donR }
+
+@Rowc
+ Z { 3. }
+ A { @kara }
+ B { 2 }
+ C { 3 }
+ D { 4 }
+ E { @kara }
+ F { 2 }
+ G { 3 }
+ H { 4 }
+ I {  }
+@Rowc
+ Z { 3. }
+ A { @kara }
+ B { 2 }
+ C { 3 }
+ D { 4 }
+ E { @kara }
+ F { 2 }
+ G { 3 }
+ H { 4 }
+ I {  }
+ 
+ @Rowc
+ Z { 4. }
+ A { @Su }
+ B { @donko }
+ C { @doko }
+ D { @donR }
+
+}
+@LeftDisplay 14p @Font { (Shime solos intro) }
+@LeftDisplay 14p @Font { Solo Lead-In }
+@Tbl 
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
+{
+
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+}
+@LeftDisplay 14p @Font { Solos, each followed by: }
+@LeftDisplay 14p @Font { Solo Ending (Lesson 5) }
+@Tbl 
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
+{
+
+@Rowc
+ Z { 6. }
+ A { 1y @Wide @HScale @sudon }
+ B { @dashko }
+ C { @donR }
+ D { @donL }
+ E { @donR }
+ F { 1y @Wide @HScale { @doko @doko } }
+ G { @doko }
+ H { @doko }
+
+@Rowc
+ Z { 6. }
+ A { 1y @Wide @HScale @sudon }
+ B { @dashko }
+ C { @donR }
+ D { @donL }
+ E { @donR }
+ F { 1y @Wide @HScale { @doko @doko } }
+ G { @doko }
+ H { @doko }
+
+@Rowc
+ Z { 7. }
+ A { @tsuku }
+ B { @donR }
+ C { @tsuku }
+ D { @donR }
+ E { @tsuku }
+ F { @donR }
+ G { @tsuku }
+ H { @doko }
+
+@Rowc
+ Z { 7. }
+ A { @tsuku }
+ B { @donR }
+ C { @tsuku }
+ D { @donR }
+ E { @tsuku }
+ F { @donR }
+ G { @tsuku }
+ H { @donR }
+
+@Rowc
+ Z { 8. }
+ A { 1y @Wide @HScale @tsudon }
+ B { 1y @Wide @HScale @tsudon }
+ C { 1y @Wide @HScale @tsudon }
+ D { 1y @Wide @HScale @tsudon }
+ E { 1y @Wide @HScale @tsudon }
+ F { 1y @Wide @HScale @tsudon }
+ G { 1y @Wide @HScale @tsudon }
+ H { 1y @Wide @HScale @tsudon }
+}
+@NP
+@LeftDisplay 14p @Font { Solo Outro }
+@Tbl 
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
+{
+@Rowd
+ Z {  }
+ A { 1 }
+ B { 2 }
+ C { 3 }
+ D { 4 }
+ E { 5 }
+ F { 6 }
+ G { 7 }
+ H { 8 }
+ I {  }
+
+
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+}
+@LeftDisplay 14p @Font { Lesson 5 }
+@Tbl 
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
+{
+
+@Rowc
+ Z { 6. }
+ A { 1y @Wide @HScale @sudon }
+ B { @dashko }
+ C { @donR }
+ D { @donL }
+ E { @donR }
+ F { 1y @Wide @HScale { @doko @doko } }
+ G { @doko }
+ H { @doko }
+
+@Rowc
+ Z { 6. }
+ A { 1y @Wide @HScale @sudon }
+ B { @dashko }
+ C { @donR }
+ D { @donL }
+ E { @donR }
+ F { 1y @Wide @HScale { @doko @doko } }
+ G { @doko }
+ H { @doko }
+
+@Rowc
+ Z { 7. }
+ A { @tsuku }
+ B { @donR }
+ C { @tsuku }
+ D { @donR }
+ E { @tsuku }
+ F { @donR }
+ G { @tsuku }
+ H { @doko }
+
+@Rowc
+ Z { 7. }
+ A { @tsuku }
+ B { @donR }
+ C { @tsuku }
+ D { @donR }
+ E { @tsuku }
+ F { @donR }
+ G { @tsuku }
+ H { @donR }
+
+@Rowc
+ Z { 8. }
+ A { 1y @Wide @HScale @tsudon }
+ B { 1y @Wide @HScale @tsudon }
+ C { 1y @Wide @HScale @tsudon }
+ D { 1y @Wide @HScale @tsudon }
+ E { 1y @Wide @HScale @tsudon }
+ F { 1y @Wide @HScale @tsudon }
+ G { 1y @Wide @HScale @tsudon }
+ H { 1y @Wide @HScale @tsudon }
+}
+
+@LeftDisplay 14p @Font { Ending }
+@Tbl 
+aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @StartVSpan { @VScale "}" |1me @Cell marginhorizontal { 0.0f } indentvertical { ctr } I } }
+
+bformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H | @VSpan }
+  
+cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } A |1.5yt 1y @Wide @Cell rule { yes } B |2.5yt 1y @Wide @Cell rule { yes } C |3.5yt 1y @Wide @Cell rule { yes } D 
+  |4.5yt 1y @Wide @Cell rule { yes } E  |5.5yt 1y @Wide @Cell rule { yes } F  |6.5yt 1y @Wide @Cell rule { yes } G  |7.5yt 1y @Wide @Cell rule { yes } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
+dformat { @Cell Z |0.5yt @Cell indent { ctr } A |1.5yt @Cell indent { ctr } B |2.5yt @Cell indent { ctr } C |3.5yt @Cell indent { ctr } D 
+  |4.5yt @Cell indent { ctr } E  |5.5yt @Cell indent { ctr } F  |6.5yt @Cell indent { ctr } G  |7.5yt @Cell indent { ctr } H 
+   }
+{
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+@Rowc
+ Z { 5. }
+ A { @doro }
+ B { @doro }
+ C { @doro }
+ D { @doro }
+ E { @doro }
+ F { @doro }
+ G { @doro }
+ H { @doro }
+@Rowc
+ Z { 5. }
+ A { @donR }
+ B { @Su }
+ C { --- @tsuR }
+ D { @donL }
+ E { @Su }
+ F { --- @tsuL }
+ G { @donR }
+ H { }
+}
 @End @Text
