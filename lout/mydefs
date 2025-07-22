@@ -19,14 +19,22 @@ stroke
 }       
         @Graphic obj
 } 
+
+
+def @Strut 
+right x
+{
+  @OneCol { x | @OneRow { 0.5f @High ^/ 0.5f @High } }
+}
 # center hit, vertical gap of 0.5m, center hand and make it 6p smaller, 
 # set the mark to left edge, condense object into one col and one row
 def @Strike
   left hit
   right hand
 {
-  @OneRow @OneCol 0.5w @HShift {0.5w @HShift hit /0.5m 0.5w @HShift 0.75f @Font hand}
+  @OneRow @OneCol 0.5w @HShift {0.5w @HShift @Strut hit /0.1m 0.5w @HShift 0.75f @Font @Strut hand }
 }
+
 
 def @tsuL {Tsu @Strike L}
 def @tsuR {Tsu @Strike R}

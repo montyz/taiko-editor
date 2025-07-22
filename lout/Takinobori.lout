@@ -84,12 +84,12 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  Z { 3. }
  A { @kara }
  B { 2 }
- C { 3 }
- D { 4 }
+ C { 3 @Strike spread }
+ D { 4 @Strike arms }
  E { @kara }
  F { 2 }
- G { 3 }
- H { 4 }
+ G { 3 @Strike spread }
+ H { 4 @Strike arms }
  I {  }
 @Rowc
  Z { 3. }
@@ -180,17 +180,6 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  E { @donR }
  F { 1y @Wide @HScale { @doko @doko } }
  G { @doko }
- H { @doko }
-
-@Rowc
- Z { 7. }
- A { @tsuku }
- B { @donR }
- C { @tsuku }
- D { @donR }
- E { @tsuku }
- F { @donR }
- G { @tsuku }
  H { @doko }
 
 @Rowc
@@ -305,17 +294,6 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  E { @donR }
  F { 1y @Wide @HScale { @doko @doko } }
  G { @doko }
- H { @doko }
-
-@Rowc
- Z { 7. }
- A { @tsuku }
- B { @donR }
- C { @tsuku }
- D { @donR }
- E { @tsuku }
- F { @donR }
- G { @tsuku }
  H { @doko }
 
 @Rowc
