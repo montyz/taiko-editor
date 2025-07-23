@@ -3,7 +3,7 @@
 @Database @FontDef  { myfontdefs }
 9m @YUnit
 @Doc @Text @Begin
-@Display {WarnockPro BoldSubhead 18p} @Font {Takinobori Second Half}
+@Display 18p @Font @B {Takinobori Second Half}
 @Display {by Ikuyo Conant}
 @Display { Salmon swimming upstream }
 @LeftDisplay 14p @Font {Lesson 4}
