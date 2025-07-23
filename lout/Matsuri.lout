@@ -3,7 +3,7 @@
 @Database @FontDef  { myfontdefs }
 9m @YUnit
 @Doc @Text @Begin
-@Display {WarnockPro BoldSubhead 18p} @Font {Matsuri}
+@Display 18p @Font @B {Matsuri}
 @Display {Elbow Room Taiko Hillclimb Arrangement}
 @Display { Festival theme, loose, free }
 @LeftDisplay {WarnockPro BoldSubhead 16p} @Font {Ji Pattern}

@@ -84,23 +84,23 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  Z { 3. }
  A { @kara }
  B { 2 }
- C { 3 @Strike spread }
+ C { 3 @Strike spread- }
  D { 4 @Strike arms }
  E { @kara }
  F { 2 }
- G { 3 @Strike spread }
+ G { 3 @Strike spread- }
  H { 4 @Strike arms }
  I {  }
 @Rowc
  Z { 3. }
  A { @kara }
  B { 2 }
- C { 3 }
- D { 4 }
+ C { 3 @Strike spread- }
+ D { 4 @Strike arms }
  E { @kara }
  F { 2 }
- G { 3 }
- H { 4 }
+ G { 3 @Strike spread;}
+ H { 4 @Strike "arms up" }
  I {  }
  
  @Rowc
@@ -141,8 +141,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  G { @doro }
  H { @doro }
 }
-@LeftDisplay 14p @Font { Solos, each followed by: }
-@LeftDisplay 14p @Font { Solo Ending (Lesson 5) }
+@LeftDisplay 14p @Font { Solos, each followed by: Solo Ending (Lesson 5) }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -204,7 +203,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  G { 1y @Wide @HScale @tsudon }
  H { 1y @Wide @HScale @tsudon }
 }
-@NP
+
 @LeftDisplay 14p @Font { Solo Outro }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
@@ -377,7 +376,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  G { @doro }
  H { @doro }
 @Rowc
- Z { 5. }
+ Z { 25. }
  A { @donR }
  B { @Su }
  C { @Char emdash @tsuR }

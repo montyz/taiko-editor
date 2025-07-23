@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <song>
- <version>1.2.4</version>
+ <version>1.2.0-beta</version>
  <bpm>120</bpm>
  <volume>0.5</volume>
- <isMuted>false</isMuted>
  <metronomeVolume>0.5</metronomeVolume>
  <name>Untitled Song</name>
  <author>hydrogen</author>
@@ -36,7 +35,7 @@
   <instrument>
    <id>0</id>
    <name>Don</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -91,7 +90,7 @@
   <instrument>
    <id>1</id>
    <name>Do</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -146,7 +145,7 @@
   <instrument>
    <id>2</id>
    <name>Ko</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -201,7 +200,7 @@
   <instrument>
    <id>3</id>
    <name>Ro</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -256,7 +255,7 @@
   <instrument>
    <id>4</id>
    <name>Tsu</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -311,7 +310,7 @@
   <instrument>
    <id>5</id>
    <name>Ku</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -366,7 +365,7 @@
   <instrument>
    <id>6</id>
    <name>Ka</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -421,7 +420,7 @@
   <instrument>
    <id>7</id>
    <name>Ra</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -476,7 +475,7 @@
   <instrument>
    <id>8</id>
    <name>su</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -531,7 +530,7 @@
   <instrument>
    <id>9</id>
    <name>Su</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -586,7 +585,7 @@
   <instrument>
    <id>10</id>
    <name>Kri</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -641,7 +640,7 @@
   <instrument>
    <id>11</id>
    <name>Sore</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -696,7 +695,7 @@
   <instrument>
    <id>12</id>
    <name>Hup</name>
-   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko_Vocalized</drumkitPath>
+   <drumkitPath>/home/monty/.hydrogen/data/drumkits/Taiko Vocalized</drumkitPath>
    <drumkit>Taiko Vocalized</drumkit>
    <volume>1</volume>
    <isMuted>false</isMuted>
@@ -754,7 +753,7 @@
    <name>Pattern 1</name>
    <info></info>
    <category>not_categorized</category>
-   <size>192</size>
+   <size>384</size>
    <denominator>4</denominator>
    <noteList>
     <note>
@@ -765,19 +764,31 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>0</instrument>
+     <instrument>1</instrument>
      <note_off>false</note_off>
      <probability>1</probability>
     </note>
     <note>
-     <position>48</position>
+     <position>24</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan>0</pan>
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>0</instrument>
+     <instrument>3</instrument>
+     <note_off>false</note_off>
+     <probability>1</probability>
+    </note>
+    <note>
+     <position>72</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan>0</pan>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>6</instrument>
      <note_off>false</note_off>
      <probability>1</probability>
     </note>
@@ -789,19 +800,7 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>4</instrument>
-     <note_off>false</note_off>
-     <probability>1</probability>
-    </note>
-    <note>
-     <position>120</position>
-     <leadlag>0</leadlag>
-     <velocity>0.8</velocity>
-     <pan>0</pan>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>5</instrument>
+     <instrument>6</instrument>
      <note_off>false</note_off>
      <probability>1</probability>
     </note>
@@ -813,19 +812,67 @@
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>4</instrument>
+     <instrument>0</instrument>
      <note_off>false</note_off>
      <probability>1</probability>
     </note>
     <note>
-     <position>168</position>
+     <position>192</position>
      <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan>0</pan>
      <pitch>0</pitch>
      <key>C0</key>
      <length>-1</length>
-     <instrument>5</instrument>
+     <instrument>0</instrument>
+     <note_off>false</note_off>
+     <probability>1</probability>
+    </note>
+    <note>
+     <position>240</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan>0</pan>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>6</instrument>
+     <note_off>false</note_off>
+     <probability>1</probability>
+    </note>
+    <note>
+     <position>264</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan>0</pan>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>7</instrument>
+     <note_off>false</note_off>
+     <probability>1</probability>
+    </note>
+    <note>
+     <position>288</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan>0</pan>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>6</instrument>
+     <note_off>false</note_off>
+     <probability>1</probability>
+    </note>
+    <note>
+     <position>336</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan>0</pan>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>6</instrument>
      <note_off>false</note_off>
      <probability>1</probability>
     </note>
@@ -1124,29 +1171,7 @@
   </pattern>
  </patternList>
  <virtualPatternList/>
- <patternSequence>
-  <group>
-   <patternID>Pattern 1</patternID>
-  </group>
-  <group>
-   <patternID>Pattern 1</patternID>
-  </group>
-  <group>
-   <patternID>Pattern 1</patternID>
-  </group>
-  <group>
-   <patternID>Pattern 1</patternID>
-  </group>
-  <group>
-   <patternID>Pattern 2</patternID>
-  </group>
-  <group>
-   <patternID>Pattern 3</patternID>
-  </group>
-  <group>
-   <patternID>Pattern 4</patternID>
-  </group>
- </patternSequence>
+ <patternSequence/>
  <ladspa>
   <fx>
    <name>no plugin</name>
