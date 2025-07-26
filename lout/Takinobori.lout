@@ -334,6 +334,10 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizo
 dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt @Cell indent { ctr } marginhorizontal { 0.2f } B |2.5yt @Cell indent { ctr } marginhorizontal { 0.2f } C |3.5yt @Cell indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt @Cell indent { ctr } marginhorizontal { 0.2f } E  |5.5yt @Cell indent { ctr } marginhorizontal { 0.2f } F  |6.5yt @Cell indent { ctr } marginhorizontal { 0.2f } G  |7.5yt @Cell indent { ctr } marginhorizontal { 0.2f } H 
    }
+eformat { @Cell Z |0.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } D 
+  |4.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } H 
+  |1me @Cell marginhorizontal { 0.0f } I }
+
 {
 @Rowc
  Z { 5. }
@@ -375,15 +379,15 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  F { @doro }
  G { @doro }
  H { @doro }
-@Rowc
+@Rowe
  Z { 9. }
  A { @donR }
  B { @Su }
- C { @Char emdash @tsuR }
+ C {  @tsuR }
  D { @donL }
  E { @Su }
- F { @Char emdash @tsuL }
+ F {  @tsuL }
  G { @donR }
- H { }
+ H { (@I slowly)}
 }
 @End @Text
