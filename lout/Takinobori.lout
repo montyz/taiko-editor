@@ -4,7 +4,7 @@
 9m @YUnit
 @Doc @Text @Begin
 @Display 18p @Font @B {Takinobori Second Half}
-@Display {by Ikuyo Conant}
+@Display {@CopyRight Ikuyo Conant}
 @Display { Salmon swimming upstream }
 @LeftDisplay 14p @Font {Lesson 4}
 
@@ -112,7 +112,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
 
 }
 @LeftDisplay 14p @Font { (Shime solos intro) }
-@LeftDisplay 14p @Font { Solo Lead-In }
+@LeftDisplay 14p @Font { Solo Section Lead-In (Group) }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -204,7 +204,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  H { 1y @Wide @HScale @tsudon }
 }
 
-@LeftDisplay 14p @Font { Solo Outro }
+@LeftDisplay 14p @Font { Solo Section Outro (Group) }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -376,7 +376,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  G { @doro }
  H { @doro }
 @Rowc
- Z { 25. }
+ Z { 9. }
  A { @donR }
  B { @Su }
  C { @Char emdash @tsuR }
