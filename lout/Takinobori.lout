@@ -3,10 +3,10 @@
 @Database @FontDef  { myfontdefs }
 9m @YUnit
 @Doc @Text @Begin
-@Display 18p @Font @B {Takinobori Second Half}
+@Display +4p @Font @B {Takinobori Second Half}
 @Display {@CopyRight Ikuyo Conant}
-@Display { Salmon swimming upstream }
-@LeftDisplay 14p @Font {Lesson 4}
+@Display @I { Swimming upstream; determination }
+@LeftDisplay +2p @Font @B {Lesson 4}
 
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
@@ -111,8 +111,8 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  D { @donR }
 
 }
-@LeftDisplay 14p @Font { (Shime solos intro) }
-@LeftDisplay 14p @Font { Solo Section Lead-In (Group) }
+@LeftDisplay +2p @Font @B { (Shime solos intro) }
+@LeftDisplay +2p @Font @B { Solo Section Lead-In (Group) }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -141,7 +141,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  G { @doro }
  H { @doro }
 }
-@LeftDisplay 14p @Font { Solos, each followed by: Solo Ending (Lesson 5) }
+@LeftDisplay +2p @Font @B { @BI Solos, each followed by: @BI {Solo Ending (Lesson 5)} }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -204,7 +204,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  H { 1y @Wide @HScale @tsudon }
 }
 
-@LeftDisplay 14p @Font { Solo Section Outro (Group) }
+@LeftDisplay +2p @Font @B { Solo Section Outro (Group) }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -255,7 +255,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  G { @doro }
  H { @doro }
 }
-@LeftDisplay 14p @Font { Lesson 5 }
+@LeftDisplay +2p @Font @B { Lesson 5 }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -318,7 +318,7 @@ dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt
  H { 1y @Wide @HScale @tsudon }
 }
 
-@LeftDisplay 14p @Font { Ending }
+@LeftDisplay +2p @Font @B { Ending }
 @Tbl 
 aformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizontal { 0.2f } H 
@@ -334,8 +334,8 @@ cformat { @Cell Z |0.5yt 1y @Wide @Cell rule { yes } indent { ctr } marginhorizo
 dformat { @Cell Z |0.5yt @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt @Cell indent { ctr } marginhorizontal { 0.2f } B |2.5yt @Cell indent { ctr } marginhorizontal { 0.2f } C |3.5yt @Cell indent { ctr } marginhorizontal { 0.2f } D 
   |4.5yt @Cell indent { ctr } marginhorizontal { 0.2f } E  |5.5yt @Cell indent { ctr } marginhorizontal { 0.2f } F  |6.5yt @Cell indent { ctr } marginhorizontal { 0.2f } G  |7.5yt @Cell indent { ctr } marginhorizontal { 0.2f } H 
    }
-eformat { @Cell Z |0.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } D 
-  |4.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } H 
+eformat { @Cell Z |0.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } A |1.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } B |2.5yt 1y @Wide @Cell indent { right } marginhorizontal { 0.2f } C |3.5yt 1y @Wide @Cell indent { left } marginhorizontal { 0.2f } D 
+  |4.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } E  |5.5yt 1y @Wide @Cell indent { right } marginhorizontal { 0.2f } F  |6.5yt 1y @Wide @Cell indent { left } marginhorizontal { 0.2f } G  |7.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f } H 
   |1me @Cell marginhorizontal { 0.0f } I }
 
 {
@@ -383,10 +383,10 @@ eformat { @Cell Z |0.5yt 1y @Wide @Cell indent { ctr } marginhorizontal { 0.2f }
  Z { 9. }
  A { @donR }
  B { @Su }
- C {  @tsuR }
+ C {  @tsuR @Char emdash}
  D { @donL }
  E { @Su }
- F {  @tsuL }
+ F {  @tsuL  @Char emdash}
  G { @donR }
  H { (@I slowly)}
 }
